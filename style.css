@@ -24,7 +24,9 @@
 }
 
 h1 {
-    width: 208px;
+    width: 210px;
+    margin: 2px;
+    padding: 2px;
     background-color: gold;
     border: 12px double black;
 }
@@ -32,7 +34,7 @@ h1 {
 h2 {
     margin: 25px 5px 5px 125px;
     padding: 10px;
-    width: 180px;
+    width: 157px;
     background-color: gold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 12px double black;
@@ -74,4 +76,70 @@ h4 {
 
 img {
     position: relative;
+}
+
+.form-submit-button {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+}
+
+h3 {
+    margin: 4px;
+    padding: 4px;
+    color: gold;
+    background-color: black;
+    border: 3px double gold;
+    position: relative;
+    width: 145px;
+    height: 36px;
+    display: inline-block;
+    z-index: 2;
+}
+
+input {
+    margin: 1px;
+    padding: 1px;
+    background-color: gold;
+    border: 1px double black;
+    position: relative;
+    width: 145px;
+    height: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: outline;
+    font-size: x-large;
+    display: inline-block;
+    z-index: 2;
+    word-wrap: normal;
+}
+
+textarea {
+    margin: 1px;
+    padding: 1px;
+    background-color: black;
+    border: 8px double gold;
+    color: whitesmoke;
+    font-size: xx-large;
+    position: relative;
+    width: 450px;
+    height: 245px;
+    display: inline-block;
+    z-index: 2;
+    word-wrap: normal;
+}
+
+.button {
+    margin: 2px;
+    padding: 2px;
+    width: 88px;
+    height: 58px;
+    background-color: darkred;
+    border: 8px double gold;
+    color: whitesmoke;
+    font-variant: small-caps;
 }
