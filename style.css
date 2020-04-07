@@ -1,0 +1,77 @@
+.spacer {
+    width: 450px;
+    height: 80px;
+    background-color: transparent;
+    border: 12px solid transparent;
+    margin: 12px;
+    padding: 12px;
+}
+
+.container {
+        width: 1220px;
+        height: 1200px;
+        margin: 1px;
+        border: 1px solid transparent;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: bold;
+        color: darkred;
+        z-index: -1;
+        background-image: url(./media/originolaCU.jpg);
+}
+
+h1 {
+    width: 208px;
+    background-color: gold;
+    border: 12px double black;
+}
+
+h2 {
+    margin: 25px 5px 5px 125px;
+    padding: 10px;
+    width: 180px;
+    background-color: gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 12px double black;
+}
+
+.mannequin {
+    width: 450px;
+    height: 445px;
+    margin: 12px;
+    padding: 12px;
+    border: 10px double gold;
+    background-color: black;
+    z-index: 2;
+}
+
+header {
+    width: 1000px;
+    margin: 15px;
+    padding: 5px;
+    border: 14px double gold;
+    font-variant: small-caps;
+    position: fixed;
+    background-image: url(./media/originolaXCU.jpeg);
+    z-index: 3;
+}
+
+h4 {
+    margin: 10px;
+    padding: 10px;
+    color: gold;
+    background-color: black;
+    border: 12px double gold;
+    position: relative;
+    width: 450px;
+    height: 250px;
+    float: left;
+    z-index: 2;
+}
+
+img {
+    position: relative;
+}
